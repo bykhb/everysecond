@@ -1,14 +1,7 @@
-//
-//  timeclockApp.swift
-//  timeclock
-//
-//  Created by bykhb on 10/11/25.
-//
-
 import SwiftUI
 
 @main
-struct timeclockApp: App {
+struct TimeClockApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
