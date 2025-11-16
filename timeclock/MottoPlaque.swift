@@ -6,6 +6,8 @@ struct MottoPlaque: View {
         Text(text)
             .font(.system(size: 28, weight: .semibold, design: .rounded))
             .kerning(2)
+            .lineLimit(1)
+            .minimumScaleFactor(0.5)
             .foregroundStyle(.white)
             .padding(.horizontal, 20)
             .padding(.vertical, 14)
